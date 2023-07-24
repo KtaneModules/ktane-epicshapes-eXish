@@ -319,8 +319,8 @@ public class EpicShapesScript : MonoBehaviour
 			{
 				if (bomb.GetBatteryCount() >= 2)
 				{
-					firstButtonClickNum = b;
-					secondButtonClickNum = c;
+					firstButtonClickNum = c;
+					secondButtonClickNum = b;
 					thirdButtonClickNum = c;
 				}
 				else
